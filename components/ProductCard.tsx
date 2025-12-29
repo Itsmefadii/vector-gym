@@ -1,9 +1,11 @@
 "use client";
 
+import type { ReactNode } from "react";
+
 interface ProductCardProps {
   name: string;
   price: number;
-  image: string;
+  image: ReactNode;
   category?: string;
 }
 
